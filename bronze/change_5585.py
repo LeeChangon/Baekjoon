@@ -1,5 +1,5 @@
 change = 1000 - int(input())
-coins = [500, 100, 50, 10, 5, 1] #°Å½º¸§ µ·
+coins = [500, 100, 50, 10, 5, 1] #Â°Ã…Â½ÂºÂ¸Â§ ÂµÂ·
 cnt = 0
 for i in coins:
     cnt += change // i
