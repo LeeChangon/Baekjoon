@@ -36,7 +36,7 @@ for h in range(min_v, max_v):       #최소 부터 최대 높이까지 반복
     for i in range(n):
         for j in range(n):
             if g[i][j] > h and visit[i][j] == 0:
-                bfs(i, j, h)        #bfs를 통해 최대 크기의 안전영역 하나를 구해
+                bfs(i, j, h)        #bfs를 통해 최대 크기의 안전영역 하나를 구해서
                 cnt += 1            #카운트해준다
     if cnt > result:
         result = cnt                
