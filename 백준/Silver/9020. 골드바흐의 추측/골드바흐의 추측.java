@@ -23,18 +23,8 @@ public class Main {
 				System.out.println(b + " " + a);
 				return;
 			}
-			else if(a + b <= num) {
-				a++;
-				while(!prime[a]) {	//다음 소수 찾기
-					a++;
-				}
-			}
-			else if(a + b > num) {
-				b--;
-				while(!prime[b]) {	//다음 소수 찾기
-					b--;
-				}
-			}
+			a++;
+			b--;
 		}
 	}
 	
