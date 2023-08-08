@@ -1,4 +1,3 @@
-
 import java.io.*;
 import java.util.*;
 
@@ -8,11 +7,10 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(br.readLine());
-		
-		//priorityqueue를 선언하고 인터페이스 comparator의 compare 메소드를 오버라이드
+		//priorityqueue를 선언 
 		Queue<Integer> q = new PriorityQueue<>();
 		
-		while(N-->0) {	//잡기술
+		while(N-->0) {	//N번 반복 잡기술. 
 			int num= Integer.parseInt(br.readLine());
 			if(num == 0) {
 				if(q.isEmpty()) {
