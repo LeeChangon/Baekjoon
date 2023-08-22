@@ -5,7 +5,6 @@ import java.io.InputStreamReader;
 class Main {
 	static String arr;
 	static int len;
-	static int slen;
 	static boolean visit[];
 	
 	static void recur(int idx, String s) {
